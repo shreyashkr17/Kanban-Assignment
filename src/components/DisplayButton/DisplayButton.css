@@ -1,0 +1,48 @@
+/* src/components/DisplayButton.css */
+.display-button-container {
+  position: relative;
+  /* margin-bottom: 20px; */
+  padding: 20px;
+  background: white;
+}
+
+.display-button {
+  padding: 6px 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.options-dropdown {
+  position: absolute;
+  top: 80%;
+  left: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.option-group {
+  margin-bottom: 12px;
+}
+
+.option-group label {
+  display: block;
+  margin-bottom: 4px;
+  color: #666;
+}
+
+.option-group select {
+  width: 200px;
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
